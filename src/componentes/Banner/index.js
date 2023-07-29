@@ -1,13 +1,9 @@
-import './Banner.css'
+import './banner.css'
 
-function Banner(){
-    return(
-        <header className="banner">
-            <img src="/imagens/banner.png" alt="O Banner principal da pagina do Organo"/>
-        </header>
-    )
+const Banner = () => {
+    return (<header className="cabecalho">
+        <img src='/imagens/banner.png' alt='Logo do Organo'/>
+    </header>)
 }
-
-// document.createElement('img')
 
 export default Banner

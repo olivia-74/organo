@@ -1,18 +1,9 @@
-import './Botao.css'
+import './botao.css'
 
-const Botao = (props) => {
-    return(
-        <button className='botao'>
-            {props.children}
-        </button>
-    )
+const Botao = ({texto}) => {
+    return <button className="botao">
+        {texto}
+    </button>
 }
 
 export default Botao
-
-// "<form onSubmit={}>" com html basico: 
-// const form = document.querySelector('form')
-// FormData.onsubmit = ()
-
-
-// {props.children} faz "o mesmo" que {props.texto} 
